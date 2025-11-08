@@ -125,7 +125,7 @@
                 <!-- Introduction -->
                 <div class="bg-white p-6 sm:p-8 rounded-xl card">
                     <h2 class="text-3xl font-bold mb-4 text-indigo-700">Nghiên Cứu & Phân Tích Chuyên Sâu</h2>
-                    <p class="text-gray-600 leading-relaxed">Phần này cung cấp các bảng dữ liệu khảo sát chi tiết theo từng mục (Item), cùng với các tài liệu và hướng dẫn ứng dụng AI có trách nhiệm, phục vụ cho mục đích phân tích học thuật và đưa ra khuyến nghị.</p>
+                    <p class="text-gray-600 leading-relaxed">Các bảng dữ liệu khảo sát chi tiết theo từng mục, cùng với các tài liệu và hướng dẫn ứng dụng AI có trách nhiệm, phục vụ cho mục đích phân tích học thuật và đưa ra khuyến nghị.</p>
                 </div>
                 
                 <!-- TÀI LIỆU BỔ SUNG (CHI TIẾT) -->
@@ -136,7 +136,7 @@
 
                     <!-- 5.1 DỮ LIỆU KHẢO SÁT CHI TIẾT (UPDATED) -->
                     <details class="border-b" open>
-                        <summary class="details-summary bg-gray-50 hover:bg-gray-100">Chi tiết Dữ liệu Khảo sát (Theo từng Item - N=100)</summary>
+                        <summary class="details-summary bg-gray-50 hover:bg-gray-100">Chi tiết Dữ liệu Khảo sát (N=100)</summary>
                         <div class="details-content space-y-6">
                             <p class="text-sm mb-3 text-gray-600">Dữ liệu tổng hợp (N=100) chi tiết tỷ lệ phản hồi (Thang đo Likert 5 mức: 1=Hoàn toàn Không đồng ý đến 5=Hoàn toàn Đồng ý) cho từng phát biểu.</p>
                             
@@ -469,7 +469,7 @@
             new Chart(ctxAtErp, {
                 type: 'polarArea',
                 data: {
-                    labels: ['Thái Độ Tích Cực ($\bar{X}_{AT}$)', 'Nhận thức Rủi ro ($\bar{X}_{ERP}$)'],
+                    labels: ['Thái Độ Tích Cực', 'Nhận thức Rủi ro'],
                     datasets: [{
                         data: data.atErpData,
                         backgroundColor: [chartColors.primary, chartColors.accentRed],
